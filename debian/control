@@ -1,0 +1,12 @@
+Source: ros-minimalist-message-generation
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-minimalist-catkin
+Homepage: http://ros.org/wiki/message_generation
+Standards-Version: 3.9.2
+
+Package: ros-minimalist-message-generation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-minimalist-gencpp, ros-minimalist-geneus, ros-minimalist-genlisp, ros-minimalist-genmsg, ros-minimalist-gennodejs, ros-minimalist-genpy
+Description: Package modeling the build-time dependencies for generating language bindings of messages.
